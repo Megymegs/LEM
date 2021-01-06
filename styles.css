@@ -75,7 +75,6 @@
 }
 
 .intro .options-holder span, .modal-footer a span {
-    display: block;
     color: #000;
     text-decoration: none;
 }
