@@ -1,4 +1,11 @@
-.intro image {
+.intro {
+    background-image: url(https://megymegs.github.io/LEM/assets/background.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.intro img {
     border-radius: 50%;
     border: 5px solid;
 }
@@ -8,15 +15,54 @@
     background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3em;
+    text-shadow: -2px -1.5px 0.4px #fff;
+}
+
+.intro .options-holder {
+    justify-content: space-around;
+}
+
+.intro .options-holder span{
+    display: block;
+    color: #333;
 }
 
 #pamphlet {
     display: none;
+    background-image: url(https://megymegs.github.io/LEM/assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .paul-barrers ul {
     padding-left: 0;
     list-style-type: none;
+}
+
+.process-plan h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin-bottom: 1em;
+}
+
+.process-plan h4 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-bottom: 0;
+}
+
+.process-plan h5 {
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+.process-plan h5 img {
+    width: 30px;
+    height: 30px;
 }
 
 .closing span {
