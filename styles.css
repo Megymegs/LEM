@@ -29,10 +29,17 @@
     cursor: pointer;
 }
 
-.intro .options-holder img, .modal-footer a img, .intro .options-holder .fa, .modal-footer a .fa {
+.intro .options-holder img, .modal-footer a img {
     border-radius: 0;
     border: 0;
-    width: 50px;
+    width: 50px;    
+}
+
+.intro .options-holder .fa, .modal-footer a .fa {
+    border-radius: 0;
+    border: 0;
+    color: #333;
+    font-size: 50px;
 }
 
 .intro .options-holder span, .modal-footer a span {
