@@ -23,8 +23,9 @@
     justify-content: space-around;
 }
 
-.intro .options-holder a {    
+.intro .options-holder a, .intro .options-holder p {    
     text-decoration: none;
+    cursor: pointer;
 }
 
 .intro .options-holder img {
