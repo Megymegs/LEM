@@ -48,6 +48,10 @@
     background-repeat: no-repeat;
 }
 
+#page1, #page2, #page3 {
+    display: none;
+}
+
 .paul-barrers ul {
     padding-left: 0;
     list-style-type: none;
