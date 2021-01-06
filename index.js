@@ -6,6 +6,9 @@ $(document).ready(function () {
 
     $( "#pamphlet button[data-bs-dismiss='modal']" ).click(function() {
         $( "#pamphlet" ).toggle();
+        $('#page1, #heading1').hide();
+        $('#page2, #heading2').hide();
+        $('#page3, #heading3').hide();
     });
 
     $( ".page1" ).click(function() {

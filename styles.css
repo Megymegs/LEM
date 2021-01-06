@@ -48,6 +48,10 @@
     background-repeat: no-repeat;
 }
 
+#pamphlet .modal-content {
+    background-color: #ffffff9e;
+}
+
 #page1, #page2, #page3, #heading1, #heading2, #heading3 {
     display: none;
 }
@@ -62,12 +66,14 @@
     font-size: 1.5em;
     line-height: 1em;
     margin-bottom: 1em;
+    font-family: 'Cinzel', serif;
 }
 
 .process-plan h4 {
     font-size: 1.2em;
     line-height: 1.2em;
     margin-bottom: 0;
+    font-family: 'Patrick Hand', cursive;
 }
 
 .process-plan h5 {
@@ -76,6 +82,7 @@
     margin-bottom: 1em;
     text-decoration: underline;
     cursor: pointer;
+    font-family: 'Slabo 27px', serif;
 }
 
 .process-plan h5 img {
@@ -95,6 +102,15 @@
     text-transform: capitalize;
 }
 
+.thank-yous h3, .thank-yous h4 {
+    font-family: 'Cinzel', serif;
+}
+
+.thank-yous h5 {
+    font-family: 'Satisfy', cursive;
+}
+
+
 .modal-footer {
     justify-content: unset !important;
 }
@@ -109,30 +125,32 @@
     }
     
     .paul-barrers img {
-        width: 70px;
-        height: 90px;
+        width: 100px;
+        height: 120px;
     }
 }
 
 @media (max-width: 768px) {
     .paul-barrers {
+        justify-content: center;
         align-items: center;
     }
-    
+
     .paul-barrers img {
-        width: 100px;
-        height: 120px;
+        width: 70px;
+        height: 90px;
     }
 
     .process-plan {
         padding: 20px 0;
+        margin-top: 20px;
         position: relative;
     }
 
     .process-plan::before {
         content: "";
         position: absolute;
-        background-color: #e3e3e3;
+        background-color: #b1b1b1;
         height: 1px;
         top: 0;
         left: 50%;
@@ -143,7 +161,7 @@
     .process-plan::after {
         content: "";
         position: absolute;
-        background-color: #e3e3e3;
+        background-color: #b1b1b1;
         height: 1px;
         bottom: 0;
         left: 50%;
