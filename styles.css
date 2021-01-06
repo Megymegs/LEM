@@ -27,7 +27,7 @@
     text-decoration: none;
 }
 
-.intro .options-holder a img {
+.intro .options-holder img {
     border-radius: 0;
     border: 0;
     width: 50px;
@@ -71,7 +71,6 @@
     text-decoration: underline;
     cursor: pointer;
 }
-
 
 .process-plan h5 img {
     width: 30px;
