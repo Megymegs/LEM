@@ -1,7 +1,5 @@
 $(document).ready(function () {
-    $('.display-pam').on('click', function(){
-        if($('#pamphlet').css('display') == 'none') {
-            $('#pamphlet').toggle();
-        }
+    $( ".display-pam" ).click(function() {
+        $( "#pamphlet" ).toggle();
     });
 })
