@@ -102,13 +102,27 @@
     height: 30px;
 }
 
-#through-it-all, #oceans-where-feet-may-fail, #when-the-roll-is-called-up-yonder {
+#through-it-all h3, #oceans-where-feet-may-fail h3, #when-the-roll-is-called-up-yonder h3 {
     text-decoration: underline;
     cursor: pointer;
 }
 
 .closing h2 {
     font-size: 2em;
+}
+
+.closing h3 {
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+.closing h4 {
+    font-size: 1.2em;
+    margin-top: -5px;
+}
+
+.closing h5 {
+    margin-bottom: 0;
 }
 
 .closing span {
@@ -120,7 +134,7 @@
     color: red;
 }
 
-.closing .d-flex h6 a {
+.closing .d-flex address a, .closing .d-flex h6 a {
     text-decoration: underline;
     color: #000;
     cursor: pointer;
