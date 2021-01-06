@@ -1,7 +1,7 @@
 .intro {
     background-image: url(https://megymegs.github.io/LEM/assets/background.jpg);
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -69,11 +69,9 @@
     line-height: 1.2em;
     margin-bottom: 1em;
     text-decoration: underline;
+    cursor: pointer;
 }
 
-.process-plan h5 a {
-    text-decoration: none;
-}
 
 .process-plan h5 img {
     width: 30px;
