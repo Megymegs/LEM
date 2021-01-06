@@ -117,7 +117,7 @@
 }
 
 .modal-footer .ml-auto {
-    margin-right: auto !important;
+    margin-left: auto !important;
 }
 
 @media (max-width: 576px) {
