@@ -20,6 +20,38 @@
     text-shadow: -2px -1.5px 0.4px #fff;
 }
 
+.intro h2, .intro h4 {
+    font-family: 'Cinzel', serif;
+    text-shadow: -2px -1.5px 0.4px #fff;
+    background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro h3 {
+    font-family: 'Patrick Hand', cursive;
+    text-shadow: -2px -1.5px 0.4px #fff;
+    background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro h5 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    text-shadow: -2px -1.5px 0.4px #fff;
+    background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro h6 {
+    text-shadow: -2px -1.5px 0.4px #fff;
+    background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .intro .options-holder {
     justify-content: space-around;
 }
