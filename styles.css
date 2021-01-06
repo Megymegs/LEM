@@ -1,0 +1,28 @@
+.intro image {
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.intro h1 {
+    font-family: 'Great Vibes', cursive;
+    background: -webkit-linear-gradient(#cf7500 25%, #f0a500 60%, #cf7500 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#pamphlet {
+    display: none;
+}
+
+.paul-barrers ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.closing span {
+    font-family: 'Great Vibes', cursive;
+}
+
+.closing span.fspan {
+    color: red;
+}
