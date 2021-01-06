@@ -75,6 +75,7 @@
 }
 
 .intro .options-holder span, .modal-footer a span {
+    display: block;
     color: #000;
     text-decoration: none;
 }
@@ -242,6 +243,19 @@
 }
 
 @media (max-width: 575px) {
+    .modal-footer a .fa {
+        font-size: 30px;
+    }
+
+    .modal-footer a img {
+        width: 30px;
+    }
+    
+    .modal-footer a span {
+        line-height: 8px;
+        font-size: 12px;
+    }
+
     .paul-barrers h4 {
         font-size: 1.1em;
     }
