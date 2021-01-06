@@ -28,15 +28,15 @@
     cursor: pointer;
 }
 
-.intro .options-holder img {
+.intro .options-holder img, .modal-footer a img {
     border-radius: 0;
     border: 0;
     width: 50px;
 }
 
-.intro .options-holder span {
+.intro .options-holder span, .modal-footer a span {
     display: block;
-    color: #333;
+    color: #000;
     text-decoration: none;
 }
 
