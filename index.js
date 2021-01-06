@@ -26,4 +26,17 @@ $(document).ready(function () {
         $('#page3, #heading3, .page1, .page2').show();
         $('.page3, #page1, #heading1, #page2, #heading2').hide();
     });
+
+    $( "#hyme1" ).click(function() {
+        $('#page2, #heading2, .page1, .page3').show();
+        $('#through-it-all').gotoAnchor();
+    });
+
+    $( "#hyme2" ).click(function() {
+        $('page2.html#oceans-where-feet-may-fail').gotoAnchor();
+    });
+    
+    $( "#hyme3" ).click(function() {
+        $('page2.html#when-the-roll-is-called-up-yonder').gotoAnchor();
+    });
 })

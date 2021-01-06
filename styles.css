@@ -85,6 +85,10 @@
     font-family: 'Slabo 27px', serif;
 }
 
+.process-plan h5 a {
+    color: #000;
+}
+
 .process-plan h5 img {
     width: 30px;
     height: 30px;
@@ -115,7 +119,7 @@
     justify-content: unset !important;
 }
 
-.modal-footer .mr-auto {
+.modal-footer .ml-auto {
     margin-right: auto !important;
 }
 
