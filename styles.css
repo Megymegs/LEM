@@ -23,9 +23,20 @@
     justify-content: space-around;
 }
 
-.intro .options-holder span{
+.intro .options-holder a {    
+    text-decoration: none;
+}
+
+.intro .options-holder a img {
+    border-radius: 0;
+    border: 0;
+    width: 50px;
+}
+
+.intro .options-holder a span {
     display: block;
     color: #333;
+    text-decoration: none;
 }
 
 #pamphlet {
@@ -60,6 +71,10 @@
     text-decoration: underline;
 }
 
+.process-plan h5 a {
+    text-decoration: none;
+}
+
 .process-plan h5 img {
     width: 30px;
     height: 30px;
@@ -71,4 +86,8 @@
 
 .closing span.fspan {
     color: red;
+}
+
+.thank-yous h3 {
+    text-transform: capitalize;
 }
