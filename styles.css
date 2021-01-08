@@ -102,7 +102,7 @@
     background: red;
     position: absolute;
     left: 35%;
-    top: 50%;
+    top: 10%;
     border-radius: 50%;
     animation-name: pulse;
     animation-duration: .5s; 
